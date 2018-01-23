@@ -7,6 +7,10 @@ body {
 	opacity: 0.9;
 	text-align: center;
 }
+h1, h2, h3, h4 {
+	margin: 0;
+	padding: 10px;
+}
 header {
 	position: fixed;
 	width: 100%;
@@ -22,7 +26,8 @@ header img {
 }
 .flex-container {
 	display: flex;
-	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 nav {
 	text-align: right;
@@ -33,4 +38,20 @@ nav {
 	}
 a {
 	color: seashell;
+}
+.main {
+	padding-top: 69px;
+    opacity: 0.9;
+    width: 1200px;
+    margin: auto;
+}
+.text-content {
+	margin: auto;
+	background-color: black;
+	width: 100%;
+}
+#mission {
+	height: 700px;
+	background-image: url("../images/img-mission-background.jpg");
+	padding-top: 70px;
 }
