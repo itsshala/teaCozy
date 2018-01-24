@@ -55,3 +55,15 @@ a {
 	background-image: url("../images/img-mission-background.jpg");
 	padding-top: 70px;
 }
+.store {
+	width: 1000px;
+}
+.prod {
+	padding: 5px;
+}
+	.prod img {
+		width: 300px;
+		height: 200px;
+		display: block;
+		margin: 10px;
+	}
